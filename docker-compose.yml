@@ -7,7 +7,7 @@ services:
     ports:
       - "2181:2181"
       - "2888:2888"
-      - "3888:3888"
+      - "3001:3001"
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
