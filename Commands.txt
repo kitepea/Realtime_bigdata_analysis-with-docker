@@ -1,5 +1,7 @@
 ﻿
-Postgres Commands 
+Postgres Commands
+
+docker exec -it <container_name> bash
 
 $ psql -U postgres
 #psql (15.1 (Ubuntu 15.1-1.pgdg22.04+1))
